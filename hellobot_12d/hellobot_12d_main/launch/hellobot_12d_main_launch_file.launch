@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="hellobot_12d_main" type="main_exe" name="main" output="screen">
+    </node>
+</launch>

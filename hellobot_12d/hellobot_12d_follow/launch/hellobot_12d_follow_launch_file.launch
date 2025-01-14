@@ -1,0 +1,7 @@
+<launch>
+    <!-- My Package launch file -->
+    <arg name="follow_mode" default="0" />
+    <node pkg="hellobot_12d_follow" type="follow_exe" name="follow" output="screen">
+        <param name="follow_mode" value="$(arg follow_mode)" />
+    </node>
+</launch>
