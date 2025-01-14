@@ -18,10 +18,6 @@ Designed to minimize terminal commands and user input by handling mode switching
 ### Technical Insights
 Implemented in C++, leveraging ROS1 metapackages for scalability and ease of integration. The project tackles challenges like varying robot sensor behaviors and real-world hardware constraints.
 
-### Auxiliary Metapackage & Documentation
-The project includes an **auxiliary metapackage** designed to provide essential dependencies and additional tools that simplify testing and execution in various environments. While optional in some settings (e.g., environments with pre-configured ROS setups),
- it ensures portability and makes the project easily deployable on other systems.
-
 The **README file** serves as a critical component of the project, offering clear instructions on setup, configuration, and usage.
 
 ---
