@@ -1,0 +1,35 @@
+# Ignore build artifacts
+build/
+devel/
+*.o
+*.so
+*.out
+*.a
+
+# Ignore ROS logs
+log/
+*.bag
+*.log
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.user
+*.workspace
+*.project
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore executable files
+*.exe
+*.bin
+
+# Ignore backup files
+*.bak
+*.old
+*.orig
